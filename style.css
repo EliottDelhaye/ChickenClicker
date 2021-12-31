@@ -1,0 +1,179 @@
+/*    _____   _   _   _   _____   _   _    _____   __   _        _____   _       _   _____   _   _    _____   _____    */ /*   _____   _____   */
+/*   /  ___| | | | | | | /  ___| | | / /  | ____| |  \ | |      /  ___| | |     | | /  ___| | | / /  | ____| |  _  \   */ /*  |  ___| |___  |  */
+/*   | |     | |_| | | | | |     | |/ /   | |__   |   \| |      | |     | |     | | | |     | |/ /   | |__   | |_| |   */ /*  | |__     __| |  */
+/*   | |     |  _  | | | | |     | |\ \   |  __|  | |\   |      | |     | |     | | | |     | |\ \   |  __|  |  _  /   */ /*  |  __|   |__  |  */ 
+/*   | |___  | | | | | | | |___  | | \ \  | |___  | | \  |      | |___  | |___  | | | |___  | | \ \  | |___  | | \ \   */ /*  | |___   ___| |  */
+/*   \_____| |_| |_| |_| \_____| |_|  \_\ |_____| |_|  \_|      \_____| |_____| |_| \_____| |_|  \_\ |_____| |_|  \_\  */ /*  |_____| |_____|  */
+
+body{
+    background-image: url("Photos/Background.png");
+     background-repeat: no-repeat;
+}
+
+footer{
+	text-align: left;
+	color: #AB0000;
+}
+
+p {
+  text-align: center;
+} 
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------Images-----------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------------------------*/
+
+#logo {
+	width: 500px; /* largeur en pixel de l'iamge */
+	height:350px; /* hauteur en pixel de l'iamge */
+}
+
+#poulet {
+	width: 550px; /* largeur en pixel de l'iamge */
+  	height: 550px; /* hauteur en pixel de l'iamge */
+  	margin-left: 350px;
+}
+
+#copyright{
+	width: 100px; /* largeur en pixel de l'iamge */
+  	height: 100px; /* hauteur en pixel de l'iamge */
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------Textes-----------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------------------------*/
+
+#nugget{
+	border-radius: 35px;
+	background-color:#AB0000;
+	color:#FFFFFF ;
+	font-size: 30px;
+	font: Verdana;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 50px;
+	width: 150px;
+}
+
+#click{
+	border-radius: 35px;
+	background-color:#AB0000;
+	color:#FFFFFF ;
+	font-size: 30px;
+	font: Verdana;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 50px;
+	width: 150px;
+}
+
+#scorenugget{
+	border: 5px solid #FFFFFF;
+	border-radius: 35px;
+	background-color:#AB0000;
+	color:#FFFFFF ;
+	font-size: 30px;
+	font: Verdana;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 50px;
+	width: 450px;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------Parties-Globales------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------------------------*/
+
+#globaldroite{
+	border: 1px solid hotpink;
+	float: left;
+	height: 910px;
+	width: 1300px;
+}
+
+#globalgauche{
+	border: 1px solid hotpink;
+	float: right;
+	height: 910px;
+	width: 525px;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------Partie-Droite--------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------------------------*/
+
+#top{
+	border: 1px solid #AB0000;
+	float: left;
+	height: 180px;
+	width: 1275px;
+	margin-top: 5px;
+	margin-left: 10px;
+	
+}
+
+#jeu{
+	border: 1px solid #AB0000;
+	float: left;
+	height: 600px;
+	width: 1275px;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+
+#footer{
+	border: 1px solid #AB0000;
+	float: left;
+	height: 80px;
+	width: 1275px;
+	margin-top: 25px;
+	margin-left: 10px;
+}
+/*---------------------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------Partie-Gauche--------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------------------------*/
+
+#displayscore{
+	border: 1px solid #FFFFFF;
+	float: right;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100px;
+	width: 505px;
+	margin-top: 5px;
+	margin-right: 10px;
+}
+
+#menu{
+	border: 1px solid #FFFFFF;
+	float: right;
+	height: 250px;
+	width: 505px;
+	margin-top: 5px;
+	margin-right: 10px;
+}
+
+#achats{
+	border: 1px solid #FFFFFF;
+	float: right;
+	height: 400px;
+	width: 505px;
+	margin-top: 5px;
+	margin-right: 10px;
+}
+
+#param{
+	border: 1px solid #FFFFFF;
+	float: right;
+	height: 125px;
+	width: 505px;
+	margin-top: 5px;
+	margin-right: 10px;
+}
+
+
+
