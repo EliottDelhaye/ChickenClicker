@@ -24,14 +24,17 @@ p {
 /*---------------------------------------------------------------------------------------------------------------------------------------------*/
 
 #logo {
-	width: 500px; /* largeur en pixel de l'iamge */
+	width: 400px; /* largeur en pixel de l'iamge */
 	height:350px; /* hauteur en pixel de l'iamge */
+	margin-left: -40px;
+	margin-top: -50px;
+	
 }
 
 #poulet {
-	width: 550px; /* largeur en pixel de l'iamge */
+	width: 700px; /* largeur en pixel de l'iamge */
   	height: 550px; /* hauteur en pixel de l'iamge */
-  	margin-left: 350px;
+  	margin-left: 250px;
 }
 
 #copyright{

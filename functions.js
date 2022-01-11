@@ -19,6 +19,12 @@ function ClickNugget(){
    document.getElementById("nugget").innerHTML = nugget;
 }
 
+let poulet = 0
+function NoClickPoulet(){
+    poulet++;
+    document.getElementById("poulet").innerHTML = poulet;
+ }
+ 
 let targetImage = "poulet";
 
 function changeImage(){
