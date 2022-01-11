@@ -5,6 +5,7 @@
 /*   | |___  | | | | | | | |___  | | \ \  | |___  | | \  |      | |___  | |___  | | | |___  | | \ \  | |___  | | \ \   */ /*  | |___   ___| |  */
 /*   \_____| |_| |_| |_| \_____| |_|  \_\ |_____| |_|  \_|      \_____| |_____| |_| \_____| |_|  \_\ |_____| |_|  \_\  */ /*  |_____| |_____|  */
 
+
 let click = 0;
 
 function Click(){
@@ -32,9 +33,18 @@ function changeImage(){
     if(targetImage=="poulet"){
         image.src = "Photos/Bucket.png";
         targetImage = "bucket";
+        
+        
     }
     else{
         image.src = "Photos/Poulet.png";
         targetImage = "poulet";
+        noPressEnter(document.body);
     }
+}
+
+function bruit(){
+    var bruit = new Audio();
+    bruit.src = "Photos/PouletSFX.mp3";
+    bruit.play();
 }
