@@ -1,3 +1,4 @@
+
 /*    _____   _   _   _   _____   _   _    _____   __   _        _____   _       _   _____   _   _    _____   _____    */ /*   _____   _____   */
 /*   /  ___| | | | | | | /  ___| | | / /  | ____| |  \ | |      /  ___| | |     | | /  ___| | | / /  | ____| |  _  \   */ /*  |  ___| |___  |  */
 /*   | |     | |_| | | | | |     | |/ /   | |__   |   \| |      | |     | |     | | | |     | |/ /   | |__   | |_| |   */ /*  | |__     __| |  */
@@ -17,7 +18,11 @@ footer{
 
 p {
   text-align: center;
-} 
+}
+
+
+
+
 
 /*---------------------------------------------------------------------------------------------------------------------------------------------*/
 /*----------------------------------------------------------------Images-----------------------------------------------------------------------*/
@@ -25,19 +30,33 @@ p {
 
 #logo {
 	width: 500px; /* largeur en pixel de l'iamge */
-	height:350px; /* hauteur en pixel de l'iamge */
+	height:500px; /* hauteur en pixel de l'iamge */
+	margin-left: -50px;
+	margin-top:-80px;
+	
 }
 
 #poulet {
-	width: 550px; /* largeur en pixel de l'iamge */
-  	height: 550px; /* hauteur en pixel de l'iamge */
-  	margin-left: 350px;
+	width: 250px; /* largeur en pixel de l'iamge */
+  	height: 380px; /* hauteur en pixel de l'iamge */
+  	margin-left: 510px;
+	margin-top:100px;
+	position:relative;
 }
+	#poulet:hover
+		{
+			transform: scale(1.10);
+		}
+
+
+
 
 #copyright{
 	width: 100px; /* largeur en pixel de l'iamge */
   	height: 100px; /* hauteur en pixel de l'iamge */
 }
+
+
 
 /*---------------------------------------------------------------------------------------------------------------------------------------------*/
 /*----------------------------------------------------------------Textes-----------------------------------------------------------------------*/
@@ -174,6 +193,3 @@ p {
 	margin-top: 5px;
 	margin-right: 10px;
 }
-
-
-
